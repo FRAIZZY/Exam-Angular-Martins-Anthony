@@ -1,0 +1,10 @@
+.fas {
+    font-size: 500%;
+    color: white;
+}
+
+.fas:hover {
+    color: red;
+    background-color: yellow;
+    border-radius: 20% 20% 20% 20%;
+}

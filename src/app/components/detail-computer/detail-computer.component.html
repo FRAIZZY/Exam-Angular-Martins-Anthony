@@ -1,0 +1,18 @@
+<app-menu></app-menu>
+<ng-container *ngIf="!isLoading">
+    <div class="container-fluid text-center my-3 p-3 col-md-5 border border-primary bg-secondary text-white">
+        <h3>Detail de l'ordinateur n°{{infoComputer.id}}</h3>
+        <p>Modele de l'ordinateur : {{infoComputer.modele}}</p>
+        <p>Marque de l'ordinateur : {{infoComputer.marque}}</p>
+        <p>Type de l'ordinateur : {{infoComputer.type}}</p>
+        <p>Categorie de l'ordinateur : {{infoComputer.category}}</p>
+        <p>Prix d'achat de l'ordinateur : {{infoComputer.prixAchat| number : '1.2-2'}} €</p>
+        <p>Prix de vente de l'ordinateur : {{infoComputer.prixVente| number : '1.2-2'}} €</p>
+        <p>Rentabilité : {{infoComputer.prixVente - infoComputer.prixAchat| number : '1.2-2'}} €</p>
+        <p>Date d'entrée en stock de l'ordinateur : {{infoComputer.dateEntreeStock|date: "d/MM/y"}}</p>
+        <button routerLink='/home' class="btn btn-lg btn-warning w-100 text-light">RETOUR</button>
+    </div>
+</ng-container>
+<ng-container *ngIf="isLoading">
+    <fa-icon [spin]="true" [icon]="faSpinner"></fa-icon>
+</ng-container>

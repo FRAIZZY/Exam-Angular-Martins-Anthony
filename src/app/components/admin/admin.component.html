@@ -1,0 +1,21 @@
+<app-menu></app-menu>
+<!--Choix button Admin-->
+<div class="container-fluid p-2 m-0 text-center row bg-info border-bottom">
+    <div class="container-fluid p-0 m-0 my-2 row">
+        <div class="col-md-4 m-auto">
+            <button class="btn btn-lg btn-success w-100" id="btnAddComputer" (click)='clickAddComputer()'>Ajouter un ordinateur</button>
+        </div>
+    </div>
+    <div class="container-fluid p-0 m-0 my-2 row">
+        <div class="col-md-4 m-auto">
+            <button class="btn btn-lg btn-danger w-100" (click)='clickAdminComputer()'>Administrer un ordinateur</button>
+        </div>
+    </div>
+</div>
+<!--Resultat button Admin-->
+<div class="text-center my-4" *ngIf='statusBtnAddComputer'>
+    <app-add-computer></app-add-computer>
+</div>
+<div class="text-center my-4" *ngIf='statusBtnAdminComputer'>
+    <app-admin-computer></app-admin-computer>
+</div>

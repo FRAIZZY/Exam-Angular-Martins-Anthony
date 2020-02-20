@@ -1,0 +1,104 @@
+{
+  "computers": [
+    {
+      "id": 1,
+      "modele": "Latitude 3500 - 15.6",
+      "marque": "Dell",
+      "type": "Portable",
+      "category": "Bureautique",
+      "prixAchat": 120.88,
+      "prixVente": 300.1,
+      "dateEntreeStock": "2012-04-23T18:25:43.511Z"
+    },
+    {
+      "id": 2,
+      "modele": "CyberpowerPC",
+      "marque": "Dell",
+      "type": "Fixe",
+      "category": "Bureautique",
+      "prixAchat": 300,
+      "prixVente": 499.99,
+      "dateEntreeStock": "2020-02-20T12:53:50.724Z"
+    },
+    {
+      "id": 3,
+      "modele": "Brutal Legion 2000",
+      "marque": "Hp",
+      "type": "Fixe",
+      "category": "Gaming",
+      "prixAchat": 900,
+      "prixVente": 1499.99,
+      "dateEntreeStock": "2020-02-20T12:55:05.582Z"
+    },
+    {
+      "id": 4,
+      "modele": "Le Pigeon",
+      "marque": "Apple",
+      "type": "Portable",
+      "category": "Bureautique",
+      "prixAchat": 100,
+      "prixVente": 2999.99,
+      "dateEntreeStock": "2020-02-20T12:55:55.199Z"
+    },
+    {
+      "id": 5,
+      "modele": "BTP Pro",
+      "marque": "Hp",
+      "type": "Tablette hybride",
+      "category": "Premier Prix",
+      "prixAchat": 300,
+      "prixVente": 499.99,
+      "dateEntreeStock": "2020-02-20T12:56:44.591Z"
+    },
+    {
+      "id": 6,
+      "modele": "PowerGaming 5000",
+      "marque": "Asus",
+      "type": "Fixe",
+      "category": "Gaming",
+      "prixAchat": 1500,
+      "prixVente": 1999.99,
+      "dateEntreeStock": "2020-02-20T12:57:39.226Z"
+    },
+    {
+      "id": 7,
+      "modele": "test e2e Computer",
+      "marque": "Apple",
+      "type": "Fixe",
+      "category": "Gaming",
+      "prixAchat": 500,
+      "prixVente": 1000,
+      "dateEntreeStock": "2020-02-20T14:41:37.939Z"
+    },
+    {
+      "id": 8,
+      "modele": "test e2e Computer",
+      "marque": "Apple",
+      "type": "Fixe",
+      "category": "Gaming",
+      "prixAchat": 500,
+      "prixVente": 1000,
+      "dateEntreeStock": "2020-02-20T14:57:44.536Z"
+    },
+    {
+      "id": 9,
+      "modele": "test e2e Computer",
+      "marque": "Apple",
+      "type": "Fixe",
+      "category": "Gaming",
+      "prixAchat": 500,
+      "prixVente": 1000,
+      "dateEntreeStock": "2020-02-20T15:01:52.008Z"
+    },
+    {
+      "id": 10,
+      "modele": "test e2e Computer",
+      "marque": "Apple",
+      "type": "Fixe",
+      "category": "Gaming",
+      "prixAchat": 500,
+      "prixVente": 1000,
+      "dateEntreeStock": "2020-02-20T15:02:57.772Z"
+    }
+  ]
+}
